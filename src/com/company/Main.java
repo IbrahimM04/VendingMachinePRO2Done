@@ -45,8 +45,8 @@ public class Main {
                 input = input.toLowerCase();
 
                 if (input.equals(commands[0])) {
-                    System.out.println(money);
                     System.out.println(Drinks);
+                    System.out.println(money);
                     System.out.println("type:");
                     System.out.println(Arrays.toString(orders));
 
