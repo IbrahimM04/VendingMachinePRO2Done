@@ -13,7 +13,7 @@ public class Main {
         String input = "";
         //Arrays
         String[] commands = {"yes", "no", "help"};
-        String[] orders = {"cola", "fanta", "water", "7up"};
+        String[] orders = {"pepsi", "mirinda", "water", "sprite"};
         String[] food = {"help", "twix", "mars", "snicker", "kit-kat", "oreo",};
         String[] command = {"yes", "no"};
 
