@@ -61,7 +61,7 @@ public class Main {
 
                         if (input.equals(orders[0])) {
                             order = true;
-                            System.out.println("Here is your " + input);
+                            System.out.println("Here is your " + input + " that costed 2 euros");
                             System.out.println("         __                              ___   __        .ama     ,\n" +
                                     "      ,d888a                          ,d88888888888ba.  ,88\"I)   d\n" +
                                     "     a88']8i                         a88\".8\"8)   `\"8888:88  \" _a8'\n" +
@@ -83,7 +83,7 @@ public class Main {
 
                         } else if (input.equals(orders[1])) {
                             order = true;
-                            System.out.println("Here is your " + input);
+                            System.out.println("Here is your " + input + " that costed 3 euros");
                             System.out.println("───────────────────────────────────\n" +
                                     "─────────█████████████████─────────\n" +
                                     "──────████░░░░░░░░░░░░░░░████──────\n" +
@@ -118,7 +118,7 @@ public class Main {
 
                         } else if (input.equals(orders[2])) {
                             order = true;
-                            System.out.println("Here is your " + input);
+                            System.out.println("Here is your " + input + " that costed 4 euros");
                             System.out.println("                                ,d                          \n" +
                                     "                                88                          \n" +
                                     "8b      db      d8 ,adPPYYba, MM88MMM ,adPPYba, 8b,dPPYba,  \n" +
@@ -133,7 +133,7 @@ public class Main {
 
                         } else if (input.equals(orders[3])) {
                             order = true;
-                            System.out.println("Here is your " + input);
+                            System.out.println("Here is your " + input + " that costed 1 euros");
                             System.out.println("11111111111111111111111111111111¶¶¶¶¶1 \n" +
                                     "1111111111111111111111111111111¶1__1¶¶¶ \n" +
                                     "111111111111111111111111111111¶1_____1¶¶ \n" +
@@ -202,7 +202,7 @@ public class Main {
                                     System.out.println(FoodWhat);
 
                                 } else if (input.equals(food[1])) {
-                                    System.out.println("Here is your " + input);
+                                    System.out.println("Here is your " + input + " that costed 5 euros");
                                     System.out.println("#######                 \n" +
                                             "   #    #    # # #    # \n" +
                                             "   #    #    # #  #  #  \n" +
@@ -218,7 +218,7 @@ public class Main {
 
                                 }
                                 else if (input.equals(food[2])) {
-                                    System.out.println("Here is your " + input);
+                                    System.out.println("Here is your " + input + " that costed 5 euros");
                                     System.out.println("#     #                        \n" +
                                             "##   ## # #      #    #   ##   \n" +
                                             "# # # # # #      #   #   #  #  \n" +
@@ -234,7 +234,7 @@ public class Main {
 
                                 }
                                 else if (input.equals(food[3])) {
-                                    System.out.println("Here is your " + input);
+                                    System.out.println("Here is your " + input + " that costed 5 euros");
                                     System.out.println(" ####  #####  ######  ####  \n" +
                                             "#    # #    # #      #    # \n" +
                                             "#    # #    # #####  #    # \n" +
@@ -249,7 +249,7 @@ public class Main {
 
                                 }
                                 else if (input.equals(food[4])) {
-                                    System.out.println("Here is your " + input);
+                                    System.out.println("Here is your " + input + " that costed 5 euros");
                                     System.out.println("#    # # ##### #    #   ##   ##### \n" +
                                             "#   #  #   #   #   #   #  #    #   \n" +
                                             "####   #   #   ####   #    #   #   \n" +
@@ -264,7 +264,7 @@ public class Main {
 
                                 }
                                 else if (input.equals(food[5])) {
-                                    System.out.println("Here is your " + input);
+                                    System.out.println("Here is your " + input + " that costed 5 euros");
                                     System.out.println("#####  #    # ###### #    #  ####  \n" +
                                             "#    # #    # #      ##   # #    # \n" +
                                             "#####  #    # #####  # #  # #    # \n" +
