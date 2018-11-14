@@ -14,7 +14,7 @@ public class Main {
         //Arrays
         String[] commands = {"yes", "no", "help"};
         String[] orders = {"cola", "fanta", "water", "7up"};
-        String[] food = {"help", "twix", "milka", "oreo", "kitkat", "bueno"};
+        String[] food = {"help", "twix", "mars", "snicker", "kit-kat", "oreo",};
         String[] command = {"yes", "no"};
 
         //String
