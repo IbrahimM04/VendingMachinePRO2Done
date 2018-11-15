@@ -199,8 +199,8 @@ public class Main {
                             System.out.println(Food);
                             System.out.println(money);
 
-                            for (int i = 0; i < food2.length; i++) {
-                                System.out.println(" - " + food2[i]);
+                            for (int i = 0; i < food.length; i++) {
+                                System.out.println(" - " + food[i]);
                             }
 
                             boolean order = false;

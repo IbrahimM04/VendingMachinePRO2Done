@@ -8,10 +8,8 @@
 
 | Vraag                  | Antwoord      | Keuzen                             |
 | -----------------------|---------------|------------------------------------|
-| Wil je wat drinken?    | Ja            | Ga naar volgende vraag             | 
-| Met of zonder prik?    | Met           | Cola, Fanta, 7up                   |
-| Wil je wat drinken?    | Ja            | Ga naar volgende vraag             | 
-| Met of zonder prik?    | Zonder        | Water                              |              
+| Wil je wat drinken?    | Ja            | Cola, Fanta, Water, 7up            | 
+| Wil je wat drinken?    | Nee           | Ga naar volgende vraag             |    
 | Wil je wat eten?       | Ja            | Twix, Milka, Oreo, Kit-Kat, bueno  |                                 |                                                                   
 
 
