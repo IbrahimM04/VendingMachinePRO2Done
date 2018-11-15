@@ -30,7 +30,7 @@ public class Main {
         String money = "You have: " + a + " euro.";
 
 
-        while (running) //running == true
+        while (running) //running == true 
         {
 
             System.out.println(MainQuestion);
