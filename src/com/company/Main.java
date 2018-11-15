@@ -14,7 +14,8 @@ public class Main {
         //Arrays
         String[] commands = {"yes", "no", "help"};
         String[] orders = {"cola", "fanta", "water", "7up"};
-        String[] food = {"help", "twix", "milka", "oreo", "kitkat", "bueno"};
+        String[] food = {"help", "twix", "milka", "oreo", "kit-kat", "bueno"};
+        String[] food2 = {"twix", "milka", "oreo", "kit-kat", "bueno"};
         String[] command = {"yes", "no"};
 
         //String
@@ -23,7 +24,7 @@ public class Main {
         String DrinksWhat = "So what would you like to drink?";
         String FoodQuestion = "Would you like something to eat?";
         String SoFood = "So would you like something to drink?";
-        String Food = "What would you like to eat?";
+        String Food = "What would you like to eat then?";
         String FoodWhat = "So what would you like to eat?";
         int a = 25;
         String money = "You have: " + a + " euro.";
@@ -48,7 +49,10 @@ public class Main {
                     System.out.println(Drinks);
                     System.out.println(money);
                     System.out.println("type:");
-                    System.out.println(Arrays.toString(orders));
+
+                    for (int i = 0; i < orders.length; i++) {
+                        System.out.println(" - " + orders[i]);
+                    }
 
                     geldigeInput = true;
 
@@ -183,6 +187,10 @@ public class Main {
                     geldigeInput = true;
                     System.out.println(FoodQuestion);
 
+                    for (int i = 0; i < command.length; i++) {
+                        System.out.println(" - " + command[i]);
+                    }
+
                     boolean foodOrder = false;
                     while (foodOrder == false) {
                         input = scan.nextLine();
@@ -190,7 +198,10 @@ public class Main {
                         if (input.equals(commands[0])) {
                             System.out.println(Food);
                             System.out.println(money);
-                            System.out.println(Arrays.toString(food));
+
+                            for (int i = 0; i < food2.length; i++) {
+                                System.out.println(" - " + food2[i]);
+                            }
 
                             boolean order = false;
                             while (order == false) {
