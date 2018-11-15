@@ -75,7 +75,7 @@ public class Main {
                                     "]88,          _,,aaaaaa,_       I88 8\"  8 ]P'  .d' 88 88' ,8' I[\n" +
                                     "`888a,.  ,aadd88888888888bma.   )88,  ,]I I8, .d' )88a8B ,d8 aI\n" +
                                     "  \"888888PP\"'        `8\"\"\"\"\"\"8   \"888PP'  `888P'  `88P\"88P\"8m\"");
-                            a = 48;
+                            a -= 2;
                             System.out.println("You have " + a + " euros left");
                             running = false;
 
@@ -111,7 +111,7 @@ public class Main {
                                     "───────████░░░░░░░░░░░░░████───────\n" +
                                     "──────────███████████████──────────\n" +
                                     "───────────────────────────────────");
-                            a = 47;
+                            a -= 3;
                             System.out.println("You have " + a + " euros left");
                             running = false;
 
@@ -126,7 +126,7 @@ public class Main {
                                     " `8b  d8'`8b  d8'  ,adPPPPP88   88   8PP\"\"\"\"\"\"\" 88          \n" +
                                     "  `8bd8'  `8bd8'   88,    ,88   88,  \"8b,   ,aa 88          \n" +
                                     "    YP      YP     `\"8bbdP\"Y8   \"Y888 `\"Ybbd8\"' 88   ");
-                            a = 46;
+                            a -= 4;
                             System.out.println("You have " + a + " euros left");
                             running = false;
 
@@ -170,7 +170,7 @@ public class Main {
                                     "11111111111111111111111¶¶___¶¶¶\n" +
                                     "111111111111111111111111¶¶_¶¶¶\n" +
                                     "1111111111111111111111111¶¶¶¶");
-                            a = 49;
+                            a -= 1;
                             System.out.println("You have " + a + " euros left");
                             running = false;
 
@@ -213,7 +213,7 @@ public class Main {
                                             "   #    #    # # #    # ");
                                     foodOrder = true;
                                     order = true;
-                                    a = 45;
+                                    a -= 5;
                                     System.out.println("You have " + a + " euros left");
                                     running = false;
 
@@ -229,7 +229,7 @@ public class Main {
                                             "#     # # ###### #    # #    #");
                                     foodOrder = true;
                                     order = true;
-                                    a = 45;
+                                    a -= 5;
                                     System.out.println("You have " + a + " euros left");
                                     running = false;
 
@@ -244,7 +244,7 @@ public class Main {
                                             " ####  #    # ######  ####  ");
                                     foodOrder = true;
                                     order = true;
-                                    a = 45;
+                                    a -= 5;
                                     System.out.println("You have " + a + " euros left");
                                     running = false;
 
@@ -259,7 +259,7 @@ public class Main {
                                             "#    # #   #   #    # #    #   #");
                                     foodOrder = true;
                                     order = true;
-                                    a = 45;
+                                    a -= 5;
                                     System.out.println("You have " + a + " euros left");
                                     running = false;
 
@@ -274,7 +274,7 @@ public class Main {
                                             "#####   ####  ###### #    #  ####  ");
                                     foodOrder = true;
                                     order = true;
-                                    a = 45;
+                                    a -= 5;
                                     System.out.println("You have " + a + " euros left");
                                     running = false;
 
