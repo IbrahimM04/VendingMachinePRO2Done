@@ -6,11 +6,13 @@
 ### Tijdens de PRO2 lessen heb ik vooral aan de grote gedeeltes van de coden werken, thuis ging ik meer aan het werk met kleine changes,
 ### Ik heb ook veel hulp gevraagd aan klasgenoten en af en toe aan leraren.
 
-## Werking
-### Als je het bestand runned, kun je eerst antwoorden op de vraag, "Do you want to drink something", daar kun je, "yes" of "no".
-### Als je "yes" kiest, krijg je een lijstje met dingen die je kunt drinken.
-### Als je "no" kiest, krijg je de vraag "Do you want to eat something?".
-### Als je dan "yes" kiest, krijg je een lijstje met eten.
-### Als je "no" kiest, krijg je de message "Shutting down" en stopt hij.
+| Vraag                  | Antwoord      | Keuzen                             |
+| -----------------------|---------------|------------------------------------|
+| Wil je wat drinken?    | Ja            | Ga naar volgende vraag             | 
+| Met of zonder prik?    | Met           | Cola, Fanta, 7up                   |
+| Wil je wat drinken?    | Ja            | Ga naar volgende vraag             | 
+| Met of zonder prik?    | Zonder        | Water                              |              
+| Wil je wat eten?       | Ja            | Twix, Milka, Oreo, Kit-Kat, bueno  |                                 |                                                                   
+
 
 ###### Gemaakt door Ibrahim Malsh, MG1C
