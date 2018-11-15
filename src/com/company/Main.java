@@ -25,7 +25,7 @@ public class Main {
         String SoFood = "So would you like something to drink?";
         String Food = "What would you like to eat?";
         String FoodWhat = "So what would you like to eat?";
-        int a = 50;
+        int a = 25;
         String money = "You have: " + a + " euro.";
 
 
@@ -189,6 +189,7 @@ public class Main {
                         input = input.toLowerCase();
                         if (input.equals(commands[0])) {
                             System.out.println(Food);
+                            System.out.println(money);
                             System.out.println(Arrays.toString(food));
 
                             boolean order = false;
